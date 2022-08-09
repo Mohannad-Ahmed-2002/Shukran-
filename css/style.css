@@ -1,0 +1,633 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+
+
+
+
+nav {
+    background-color: white;
+    position: fixed;
+    box-shadow: 0px 6px 60px #0000001a;
+    position: relative;
+}
+
+nav .logo {
+    margin-right: 50px;
+}
+
+
+nav li button {
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    border: 2px solid #F3A202;
+    font-weight: 600;
+}
+
+
+nav .edit-nav {
+    position: absolute;
+    right: 500px;
+
+}
+
+
+nav a {
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* -------------End nav bar--------------------- */
+
+.home {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.home img {
+    position: absolute;
+    height: 600px;
+    left: 250px;
+}
+
+
+
+.home .save h1 {
+    position: absolute;
+    top: 200px;
+    right: 250px;
+}
+
+.home .save p {
+    position: absolute;
+    top: 300px;
+    right: 250px;
+    width: 450px;
+}
+
+
+
+
+/* ---------------------------------End Home------------------------------ */
+
+
+
+.six {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 100px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.six img {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+
+}
+
+
+
+
+
+
+/* --------------------End six divs----------------------- */
+
+
+
+.how {
+
+    height: 700px;
+    width: 100%;
+    position: relative;
+    top: 200px;
+
+}
+
+
+.how h1 {
+    position: absolute;
+    left: 650px;
+    top: 30px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    right: 150px;
+
+}
+
+
+.container .first {
+    width: 100px;
+
+
+}
+
+
+.container h4 {
+    margin-top: 50px;
+}
+
+.container p {
+    height: 5px;
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+.how .how-icon {
+    width: 120px;
+    height: 120px;
+    background: transparent;
+    border: 0.5px solid #757575;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* -----------------End How ------------------------------ */
+
+
+
+
+
+.h1 {
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+
+
+
+
+.thanks {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 400px;
+    display: flex;
+
+
+}
+
+
+.thanks img {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    right: 150px;
+}
+
+
+
+.thanks .egypt {
+    width: 600px;
+    height: 400px;
+
+    position: absolute;
+    left: 250px;
+
+    text-align: right;
+}
+
+
+.thanks .egypt h1 {
+    font-size: 30px;
+}
+
+
+
+.thanks .egypt p {
+    color: #7A7A7A;
+}
+
+
+
+.thanks .egypt li {
+    list-style-type: none;
+
+}
+
+.thanks .egypt li img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-top: 10px;
+    right: 0%;
+}
+
+
+
+/* ************end thanks----------------- */
+
+
+
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #2E2E2E;
+    ;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 700px;
+}
+
+
+footer img {
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+
+}
+
+
+footer .contact {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer i {
+    font-size: 50px;
+}
+
+footer .logos {
+    width: 150px;
+    height: 120px;
+    background-color: #F3A202;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+
+
+
+
+/* -----------------End the website------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:750px) {
+
+    .navbar-toggler {
+        transform: translateX(220px) !important;
+    }
+
+
+
+
+
+
+    .home {
+        position: relative;
+        height: 700px;
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        right: 0px;
+    }
+
+    .home img {
+        position: absolute;
+        width: 90%;
+        right: 10px;
+        top: 10px;
+
+
+        left: 50px;
+
+        height: 500px;
+    }
+
+
+
+    .home .save h1 {
+        position: relative;
+        top: 650px;
+        right: 0px;
+        font-size: 5px;
+    }
+
+    .home .save p {
+        position: absolute;
+        top: 500px;
+        right: 0px;
+        width: 200px;
+    }
+
+
+
+
+    /* ---------------------------------End Home------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+    .six {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        top: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+
+
+    .six img {
+        width: 80%;
+        height: 200px;
+        padding: 5px;
+
+
+    }
+
+
+
+
+
+
+    /* --------------------End six divs----------------------- */
+
+
+
+
+    .how {
+
+        height: 700px;
+        width: 100%;
+        position: relative;
+        top: 700px;
+
+    }
+
+
+    .how h1 {
+        position: absolute;
+        left: 650px;
+        top: 30px;
+    }
+
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 400px;
+        height: 2000px;
+        position: absolute;
+        top: 600px;
+        right: 0px;
+
+    }
+
+
+    .container .first {
+        width: 90%;
+
+
+    }
+
+
+    .container h4 {
+        margin-top: 50px;
+    }
+
+    .container p {
+        height: 5px;
+        font-size: 15px;
+
+    }
+
+
+
+
+
+
+    .how .how-icon {
+        width: 120px;
+        height: 120px;
+        background: transparent;
+        border: 0.5px solid #757575;
+        border-radius: 50%;
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    /* -----------------End How ------------------------------ */
+
+
+
+
+
+
+    .h1 {
+        text-align: center;
+        position: relative;
+        top: 300px;
+    }
+
+
+
+
+
+    .thanks {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        top: 3000px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .thanks img {
+        width: 90%;
+        height: 200px;
+        position: relative;
+        right: 0px;
+        top: -200px;
+
+    }
+
+
+
+    .thanks .egypt {
+        width: 200px;
+        height: 400px;
+
+        position: absolute;
+        right: 50px;
+
+        text-align: right;
+    }
+
+
+    .thanks .egypt h1 {
+        font-size: 30px;
+    }
+
+
+
+    .thanks .egypt p {
+        color: #7A7A7A;
+    }
+
+
+
+    .thanks .egypt li {
+        list-style-type: none;
+
+    }
+
+    .thanks .egypt li img {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        margin-top: 10px;
+        right: 0%;
+    }
+
+
+
+    /* ************end thanks----------------- */
+
+
+
+
+
+
+
+    footer {
+        width: 100%;
+        height: 300px;
+        background-color: #2E2E2E;
+        ;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 4000px;
+    }
+
+
+    footer img {
+        width: 50px;
+        height: 60px;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+
+    }
+
+
+    footer .contact {
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    footer i {
+        font-size: 50px;
+    }
+
+    footer .logos {
+        width: 150px;
+        height: 120px;
+        background-color: #F3A202;
+        position: absolute;
+        left:100px;
+        top: 150px;
+        text-align: center;
+        
+    }
+
+
+
+
+
+    /* -----------------End the website------------------------ */
+
+    .carousel-inner {
+        position: relative;
+        top: 3300px;
+    }
+
+
+}
