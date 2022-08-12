@@ -333,10 +333,24 @@ footer .logos {
 
 @media (max-width:750px) {
 
-    .navbar-toggler {
+    .navbar-nav {
+        transform: translateX(100px) !important;
+        /* transform: translateY(40px) !important; */
+        padding-top: 300px; 
+    }
+
+
+
+
+    
+    .edit-nav {
         transform: translateX(220px) !important;
     }
 
+
+  
+
+    
 
 
 
